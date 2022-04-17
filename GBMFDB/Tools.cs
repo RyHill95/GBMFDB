@@ -16,5 +16,19 @@ namespace GBMFDB
         {
             InitializeComponent();
         }
+
+        private void btnSaveTools_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tools checked out successfully!");
+            
+            new Menu().Show();
+            this.Hide();
+        }
+
+        private void btnExitTools_Click(object sender, EventArgs e)
+        {
+            new Menu().Show();
+            this.Hide();
+        }
     }
 }

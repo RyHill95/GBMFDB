@@ -44,5 +44,12 @@ namespace GBMFDB
             new EquipmentDepot().Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Login().Show();
+            this.Hide();
+
+        }
     }
 }
